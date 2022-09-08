@@ -6,7 +6,6 @@ Sensbio-app is a simple webserver that allows users to identify possible transcr
 # Required packages
 
 - python 3
-- streamlit
 - rdkit
 - seaborn
 - biopython
