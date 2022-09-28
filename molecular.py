@@ -43,4 +43,4 @@ if args.molecule != "" and chem_validator(args.molecule)==True:
     dataframe.to_csv('dataframe.csv')
     print("The **dataframe.csv** file has been created containing all the output information.")
 else:
-    print("Please enter a valid input molecule.")
+    raise Exception(f"The string \"{args.molecule}\" is not a valid SMILES. Please enter a valid input molecule.")
