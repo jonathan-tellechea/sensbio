@@ -29,7 +29,7 @@ Similarly, two tools are avaible to find TFs in the database similar to your inp
     - Simply change the **sequence** variable with your query amino-acid sequence.
 - **sequence.py**
     - Run the script by calling it together with your query protein sequence within quotation marks as argument:
-    - `python molecular.py 'YOUR SEQUENCE'`
+    - `python sequence.py 'YOUR SEQUENCE'`
 
 # License
 
