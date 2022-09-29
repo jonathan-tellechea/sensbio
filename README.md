@@ -11,8 +11,7 @@ Sensbio is a set of simple CLIs and Jupyter-Notebooks that allow users to identi
 - ncbi-blast+
 
 # Usage
-
-# Molecular tools.
+## Molecular tools.
 
 Two tools are available to identify possible TFs triggered by your input molecule (in SMILES format):
 
@@ -21,6 +20,8 @@ Two tools are available to identify possible TFs triggered by your input molecul
 - **molecular.py**
     - Run the script by calling it together with your target molecule withing quotation marks as argument:
     - `python molecular.py 'YOUR SMILES'`
+
+## Protein sequence tools.
 
 Similarly, two tools are avaible to find TFs in the database similar to your input protein sequence.
 
