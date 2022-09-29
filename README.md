@@ -1,27 +1,34 @@
-
 # About Sensbio
 
-Sensbio-app is a simple webserver that allows users to identify possible transcription factors (TFs) inducible by small chemical compounds.
+Sensbio is a set of simple CLIs and Jupyter-Notebooks that allow users to identify possible transcription factors (TFs) inducible by small chemical compounds. A web-based application in development is available at [Sensbio-app](https://github.com/jonathan-tellechea/sensbio_app)
 
 # Required packages
 
 - python 3
-- rdkit
-- seaborn
+- pandas
 - biopython
-
-In addition, a local ncbi-blast+ installation.
+- rdkit
+- ncbi-blast+
 
 # Usage
 
-Using sensbio-app is really simple. The application is separated in three different pages:
+# Molecular tools.
 
-- **Data visualization page:** use it to get to know the data in the sensbio dataset.
-    - Visualize and export the whole database.
-    - Visualize the molecular variety of the database.
-    - Visualize the genetic variety of the database.
-- **Molecular prediction page:** use to identify possible TFs triggered by your input molecule.
-- **TF sequence prediction page:** use to TFs in the database similar to your input protein sequence.
+Two tools are available to identify possible TFs triggered by your input molecule (in SMILES format):
+
+- **molecular.ipynb** 
+    - Simply change the **input_molecule** variable with your desired target SMILES and run the whole notebook.
+- **molecular.py**
+    - Run the script by calling it together with your target molecule withing quotation marks as argument:
+    - `python molecular.py 'YOUR SMILES'`
+
+Similarly, two tools are avaible to find TFs in the database similar to your input protein sequence.
+
+- **sequence.ipynb** 
+    - Simply change the **sequence** variable with your query amino-acid sequence.
+- **sequence.py**
+    - Run the script by calling it together with your query protein sequence within quotation marks as argument:
+    - `python molecular.py 'YOUR SEQUENCE'`
 
 # License
 
