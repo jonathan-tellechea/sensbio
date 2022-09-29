@@ -40,7 +40,7 @@ args = parser.parse_args()
 if args.molecule != "" and chem_validator(args.molecule)==True:
     dataframe = tanimoto_ranker(args.molecule)
     print(dataframe)
-    dataframe.to_csv('dataframe.csv')
-    print("The **dataframe.csv** file has been created containing all the output information.")
+    dataframe.to_csv('molecule_dataframe.csv')
+    print("The **molecule_dataframe.csv** file has been created containing all the output information.")
 else:
     raise Exception(f"The string \"{args.molecule}\" is not a valid SMILES. Please enter a valid input molecule.")
