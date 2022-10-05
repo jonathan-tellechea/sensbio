@@ -15,20 +15,20 @@ For the main algorithms (sequence.py and molecular.py) to work, the installation
 Two tools are available to identify possible TFs triggered by your input molecule (in SMILES format):
 
 - **molecular.ipynb** 
-    - Simply change the **input_molecule** variable with your desired target SMILES and run the whole notebook.
+    1. Simply change the **input_molecule** variable with your desired target SMILES and run the whole notebook.
 - **molecular.py**
-    - Run the script by calling it together with your target molecule withing quotation marks as argument:
-    - `python molecular.py 'YOUR SMILES'`
+    1. Run the script by calling it together with your target molecule withing quotation marks as argument:
+    2. `python molecular.py 'YOUR SMILES'`
 
 ## Protein sequence tools.
 
 Similarly, two tools are available to find TFs in the database similar to your input protein sequence.
 
 - **sequence.ipynb** 
-    - Simply change the **sequence** variable with your query amino-acid sequence.
+    1. Simply change the **sequence** variable with your query amino-acid sequence.
 - **sequence.py**
-    - Run the script by calling it together with your query protein sequence within quotation marks as argument:
-    - `python sequence.py 'YOUR SEQUENCE'`
+    1. Run the script by calling it together with your query protein sequence within quotation marks as argument:
+    2. `python sequence.py 'YOUR SEQUENCE'`
 
 # License
 
