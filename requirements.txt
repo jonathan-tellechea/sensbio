@@ -1,4 +1,0 @@
-pandas
-biopython
-rdkit
-ncbi-blast+
