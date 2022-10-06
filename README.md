@@ -4,7 +4,7 @@ Sensbio is a set of simple CLIs and Jupyter-Notebooks that allow users to identi
 
 # Installation
 
-For the main algorithms (sequence.py and molecular.py) to work, the installation of dependencies can be done through Anaconda environment manager.
+For the main algorithms (sequence.py and molecular.py) to work, the installation of dependencies can be done through Anaconda environment manager.s
 1. Clone this repository in your computer.
 2. Execute: `conda env create -f environment.yml`
 3. Activate the sensbio environment: `conda activate sensbio`
