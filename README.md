@@ -9,6 +9,9 @@ For the main algorithms (sequence.py and molecular.py) to work, the installation
 2. Execute: `conda env create -f environment.yml`
 3. Activate the sensbio environment: `conda activate sensbio`
 
+If the user wants to use the tools through the supplied notebooks, it is necessary the installation of the required dependencies separately. For instance, through the following command:
+- `conda install -c conda-forge jupyterlab`
+
 # Usage
 ## Molecular tools.
 
