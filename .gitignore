@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 molecule_dataframe.csv
 sequence_dataframe.csv
+__pycache__/molecular_functions.cpython-37.pyc
