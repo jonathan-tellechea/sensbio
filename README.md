@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7303702.svg)](https://doi.org/10.5281/zenodo.7303702)
+
 # About Sensbio
 
 Sensbio is a set of simple CLIs and Jupyter-Notebooks that allow users to identify possible transcription factors (TFs) inducible by small chemical compounds. A web-based application in development is available at [Sensbio-app](https://github.com/jonathan-tellechea/sensbio_app)
